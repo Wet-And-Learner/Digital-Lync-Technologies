@@ -1,0 +1,31 @@
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+ul a 
+{
+    text-decoration: none;
+}
+
+.dropdown-menu
+{
+    display:none;
+}
+
+.dropdown-menu a{
+    color: rgb(0, 0, 0);
+}
+
+.dropdown
+{
+    position: relative;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    position:absolute;
+    left: -39px;
+    min-width: 80px;
+}
